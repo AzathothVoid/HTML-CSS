@@ -1,0 +1,71 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Poppins , Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+    word-spacing: 1.5rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: url(../images/hubble-banner/hubble_awwyp7_c_scale\,w_320.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    padding: 1rem;
+    color:#fff;
+}
+
+.hero .tagline{
+    background: rgba(0 , 0, 0, 0.6);
+    font-size: 2rem;
+    font-weight:300;
+    letter-spacing: 1.5px;
+    padding: 1.5rem;
+}
+
+
+@media screen and (min-width: 768px){
+    .hero{
+        background: url(../images/hubble-banner/hubble_awwyp7_c_scale\,w_928.jpg) no-repeat; 
+        background-size: cover;       
+    }
+    .hero .tagline{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .hero{
+        background: url(../images/hubble-banner/hubble_awwyp7_c_scale\,w_1272.jpg) no-repeat;
+        background-size: cover;
+    }
+    h1{
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 1440px)
+{
+    .hero{
+        background: url(../images/hubble-banner/hubble_awwyp7_c_scale\,w_1440.jpg) no-repeat;
+        background-size: cover;
+    }
+    h1{
+        font-size: 9rem;
+    }
+}

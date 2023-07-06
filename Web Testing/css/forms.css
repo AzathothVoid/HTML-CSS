@@ -1,0 +1,23 @@
+form{
+    width:25vw;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.form #user-name, .form #pass{
+    color:white;
+}
+
+.form label{
+    color: #fff;
+}
